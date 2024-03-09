@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://source.unsplash.com/1000x500/?kids,toy');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #92e2e9;
+    height: 100px;
+}
+
+.bg1 {
+    width: 700px;
+    height: 300px;
+    background-image: url('https://source.unsplash.com/700x300/?kids,toy');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stick {
+    height: 300px;
+    width: 30px;
+    background-color: red;
+    rotate: -35deg;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+.ddd {
+height: 200px;
+width: 200px;
+border: 2px solid red;
+}
+@media (min-width: 355px) and (max-width:500px) {
+    .background {
+        height: 70vh;
+        width: 100%;
+        background-image: url('https://source.unsplash.com/1000x350/?kids,toy');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .media{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 10px;
+            font-size: 12px;
+    }
+    .media1{
+            display: flex;
+            /* align-items: center; */
+            justify-content: space-between;
+            align-content: center;
+            /* row-gap: 10px; */
+            /* column-gap: 4px; */
+            /* flex-wrap: wrap; */
+            padding: 10px 0px;
+    }
+    .boot{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .cards{
+        font-size: 10px;
+    }
+    .text{
+        padding-top: 20px;
+        width: 100%;
+        margin-top: 0;
+       
+    }
+    .centre{
+        width: 50%;
+        margin: auto;
+    }
+    .image{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .para{
+        margin-left: 10px;
+    }
+    .non{
+        display: none;
+    }
+    
+    .image2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: red; */
+        margin-top: 0;
+        margin-top: 0;
+    }
+    .images{
+        /* background-color: aliceblue; */
+        margin-right: 30px;
+        margin-top: 0;
+    }
+    
+.txt{
+    /* background-color: pink; */
+    font-size: 10px;
+    margin-right: 30px;
+    margin-top: 0;
+}
+.cards2{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.champ{
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+
+}
+.st{
+    width: 100%;
+    text-align: left;
+    font-size: 6px;
+    margin-top: 10px;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.img1{
+    width: 100%;
+}
+.white{
+    color: white;
+    margin-top: 20px;
+}
+.background1 {
+    height: 90vh;
+    width: 100%;
+    background-image: url('https://source.unsplash.com/1000x450/?kids,toy');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.auto{
+    font-size: 8px;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+.left{
+    margin-left: 10px;
+}
+.imgw{
+    text-align: center;
+}
+.mt{
+    margin-top: 20px;
+}
+.imgww{
+    font-size: 6px;
+}
+.mtt{
+    margin-top: 10px;
+}
+.mx{
+    background-color: red;
+    font-size: 10px;
+    font-weight:lighter;
+    margin-right: 10px;
+}
+.img3{
+    margin-top: 0px;
+    font-size: 17px;
+
+}
+.buto{
+    /* background-color: red; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.coolor{
+    color: white;
+    background-color: whitesmoke;
+    padding: 10px;
+    /* background-color: red; */
+}
+.bhg{
+    background-color: whitesmoke;
+    font-size: 30px;
+    border: 1px solid  white;
+}
+    
+    .media2{
+            display: flex;
+            align-items: flex-start;
+            justify-content:center;
+            /* row-gap: 10px; */
+            column-gap: 26px;
+            flex-wrap: wrap;
+            font-size: 12px;
+    }
+    .row1{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            /* row-gap: 10px; */
+            /* column-gap: 4px; */
+            flex-wrap: wrap;
+    }
+    
+    .card2{
+            margin: 0;
+            /* display: none; */
+    }
+    .breath{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .media3{
+        width: 100%;
+
+    }
+    
+    .principle{
+ width: 100%;
+ font-size: 12px;
+ margin: auto;
+ border-top: 1px solid black;
+ padding-top: 10px;
+    
+    
+        
+
+    } 
+    
+}
